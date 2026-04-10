@@ -13,16 +13,26 @@
     <div class="container py-3">
       <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
         <a href="#" class="navbar-brand fw-bold fs-3 mb-0 text-uppercase">Aqua<span class="text-success">Green</span></a>
-        <nav class="d-flex flex-wrap gap-3 fw-semibold small">
-          <a class="link-dark text-decoration-none" href="#">Каталог товаров</a>
-          <a class="link-dark text-decoration-none" href="#">Готовые решения</a>
-          <a class="link-dark text-decoration-none" href="#">Монтаж</a>
-          <a class="link-dark text-decoration-none" href="#">Блог</a>
-          <a class="link-dark text-decoration-none" href="#">Доставка и оплата</a>
-          <a class="link-dark text-decoration-none" href="#">Контакты</a>
-        </nav>
-        <a class="fw-bold text-dark text-decoration-none" href="tel:+74951234567">+7 (495) 123-45-67</a>
+
+        <div class="contact-chip d-none d-lg-flex align-items-center gap-2 px-3 py-2 rounded-3 bg-light">
+          <span class="small">📍</span>
+          <div class="small">
+            <div class="fw-semibold">г. Москва, ул. Профсоюзная, 76</div>
+            <div class="text-secondary">Пн–Пт: 9:00–18:00</div>
+          </div>
+        </div>
+
+        <a class="fw-bold text-dark text-decoration-none fs-5" href="tel:+74951234567">+7 (495) 123-45-67</a>
       </div>
+
+      <nav class="d-flex flex-wrap gap-3 fw-semibold small mt-3">
+        <a class="link-dark text-decoration-none" href="#">Каталог товаров</a>
+        <a class="link-dark text-decoration-none" href="#">Готовые решения</a>
+        <a class="link-dark text-decoration-none" href="#">Монтаж</a>
+        <a class="link-dark text-decoration-none" href="#">Блог</a>
+        <a class="link-dark text-decoration-none" href="#">Доставка и оплата</a>
+        <a class="link-dark text-decoration-none" href="#">Контакты</a>
+      </nav>
     </div>
   </header>
 
@@ -30,7 +40,7 @@
     <section class="container my-4">
       <div class="hero p-4 p-lg-5 rounded-4 text-white position-relative overflow-hidden">
         <div class="row align-items-center g-4">
-          <div class="col-lg-7">
+          <div class="col-lg-6">
             <h1 class="display-4 fw-bold mb-3">Автоматический полив <span class="text-warning-emphasis">без забот</span></h1>
             <p class="lead mb-4">Экономьте воду и время с умными системами полива.</p>
             <div class="d-flex flex-wrap gap-2">
@@ -38,8 +48,8 @@
               <button class="btn btn-light btn-lg px-4">Каталог товаров</button>
             </div>
           </div>
-          <div class="col-lg-5">
-            <div class="hero-visual rounded-4"></div>
+          <div class="col-lg-6">
+            <img src="/static/img/hero-irrigation.svg" alt="Система автополива на газоне" class="img-fluid rounded-4 hero-image">
           </div>
         </div>
       </div>

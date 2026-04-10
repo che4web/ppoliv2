@@ -1,0 +1,27 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7f0ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#74be4f"/>
+      <stop offset="1" stop-color="#2f7d2f"/>
+    </linearGradient>
+    <radialGradient id="spray" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(780 360) rotate(165) scale(300 180)">
+      <stop stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="430" fill="url(#sky)"/>
+  <rect y="360" width="1200" height="340" fill="url(#grass)"/>
+  <circle cx="980" cy="160" r="90" fill="#e8f7ff"/>
+  <rect x="760" y="135" width="150" height="180" rx="10" fill="#f5f7f8"/>
+  <rect x="870" y="115" width="220" height="220" rx="10" fill="#f5f7f8"/>
+  <ellipse cx="780" cy="360" rx="320" ry="190" fill="url(#spray)"/>
+  <ellipse cx="930" cy="370" rx="280" ry="170" fill="url(#spray)"/>
+  <rect x="760" y="430" width="14" height="120" rx="7" fill="#222"/>
+  <circle cx="767" cy="430" r="16" fill="#333"/>
+  <rect x="918" y="455" width="14" height="100" rx="7" fill="#222"/>
+  <circle cx="925" cy="455" r="14" fill="#333"/>
+</svg>
